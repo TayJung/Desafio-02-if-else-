@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 15vh;
+    border: solid 5px;
+    height: 50vh;
+    color: rgb(116, 184, 167);
+    background-image: url(./assets/hamlet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    width: 90%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
